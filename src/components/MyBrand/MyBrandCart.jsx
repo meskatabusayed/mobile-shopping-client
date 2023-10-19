@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const MyBrandCart = ({brand}) => {
     const {id , image , Name} = brand || {};
+    console.log(Name);
 
     
 

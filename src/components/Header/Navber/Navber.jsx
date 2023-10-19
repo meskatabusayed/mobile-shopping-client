@@ -107,7 +107,7 @@ const Navber = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-white bg-red-900 normal-case text-xl">MYBAZER</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -121,11 +121,11 @@ const Navber = () => {
               </div>
             </div>
             <span>{user.displayName}</span>
-            <a onClick={handleLogOut} className="btn btn-sm">Sign Out</a>
+            <a onClick={handleLogOut} className="btn btn-sm ml-2">Sign Out</a>
             </>
             :
             <Link to='/signin'>
-                 <button  className="btn btn-sm">Sign In</button>
+                 <button  className="btn btn-sm ">Sign In</button>
             </Link>
         }
         
