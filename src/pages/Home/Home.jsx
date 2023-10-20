@@ -16,7 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <MyBrand loadedBrands={loadedBrands}></MyBrand>
             <div>
-                <h2 className="text-center text-3xl font-bold mt-10 mb-10">Best Seller Product Image</h2>
+                <h2 className="text-center text-3xl font-bold mt-10 mb-10">Best Seller Product Images</h2>
                 <div  className="grid grid-cols-1 lg:grid-cols-2 gap-4 ml-5">
                     <div className="w-40">
                         <img src="https://i.ibb.co/1KXwKLK/AppleP.webp" alt="" />
