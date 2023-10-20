@@ -21,26 +21,26 @@ const myCreatedRoute = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>,
-            loader: () => fetch('http://localhost:5000/datas'),
+            loader: () => fetch('https://meskat-10th-assignment-ph-server.vercel.app/datas'),
         
 
         },
         {
             path: '/brandcategory/:brand',
             element: <BrandCategory></BrandCategory>,
-            loader: ({params}) => fetch(`http://localhost:5000/product/${params.brand}`)
+            loader: ({params}) => fetch(`https://meskat-10th-assignment-ph-server.vercel.app/product/${params.brand}`)
 
         },
         {
             path: '/details/:id' ,
             element: <PrivateRoute><DetailsProduct></DetailsProduct></PrivateRoute>,
-            loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+            loader: ({params}) => fetch(`https://meskat-10th-assignment-ph-server.vercel.app/products/${params.id}`)
 
         },
         {
             path: '/update/:id' ,
             element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
-            loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+            loader: ({params}) => fetch(`https://meskat-10th-assignment-ph-server.vercel.app/products/${params.id}`)
         },
         {
             path: '/addproduct',
@@ -50,7 +50,7 @@ const myCreatedRoute = createBrowserRouter([
         {
             path: '/mycart',
             element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
-            loader: () => fetch('http://localhost:5000/user')
+            loader: () => fetch('https://meskat-10th-assignment-ph-server.vercel.app/user')
         },
         {
             path: '/signup',

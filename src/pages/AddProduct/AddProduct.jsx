@@ -19,7 +19,7 @@ const AddProduct = () => {
 
         // send data to the server
 
-        fetch('http://localhost:5000/product' , {
+        fetch('https://meskat-10th-assignment-ph-server.vercel.app/product' , {
             method:'POST' ,
             headers: {
                 'content-type' : 'application/json'
