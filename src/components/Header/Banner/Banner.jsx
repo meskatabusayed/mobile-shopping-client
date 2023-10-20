@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="absolute inset-0 bg-white bg-opacity-50">
        
           <h1 className="text-center text-5xl font-bold text-black pt-60">
-            Best Popular Brands In the World All Here
+            Best Popular electronics Brands In the World All Here
           </h1>
   
           <div  className="flex justify-center items-center pt-5">
