@@ -145,7 +145,11 @@ const Navber = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-white bg-red-900 normal-case text-xl">MYBAZER</a>
+        <div>
+           
+        </div>
+        <a className="btn btn-ghost normal-case text-xl"><span className="text-5xl text-red-900">M</span> MYBAZER</a>
+        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
